@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>What's for dinner?</title>
+		<meta charset="utf-8">
+		<meta name="description" content="Need help deciding what to order?">
+		<meta name="keywords" content="food, order, favorite, resturaunt, friends,">
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/smallstyle.css" media="(max-width: 630px)">
+
+		
+
+	</head>
+	<body>
+	
+		<div class= "container">
+			
+			<h1><p id="dinner"></p></h1>
+		
+			<a class="button" href="https://jlialay93.github.io/whats-for-dinner/">Hmmm, what else?</a>
+		</div><!-- .button -->
+				
+			
+		
+		
+				
+		</div> <!--end of .container -->
+
+		<script>
+		
+		
+			// List of favortie dishes & resturaunts
+			var dish = [
+				'vegetable ramen from Trams',
+				'wings from Calientes',
+				'white pizza from Pizza Fiesta',
+				'cheesy sticks from Calientes ',
+				'Ki-Ramen',
+				'burgers from Park-Bruges',
+				'Dijlaahs',
+				'fried chicken from Soul & Sea',
+				'Tiwanese Bistro Cafe 33',
+				'choripollo from Patrons',
+				'Piccolo Forno',
+				'jalopeno steak wrap from Lot-17',
+				'gyros from BG Cafe'
+
+
+			];
+
+
+			var randomNumber = Math.floor(Math.random()*dish.length);
+			
+			var dishname = dish[randomNumber];
+			
+
+			document.getElementById("dinner").innerHTML = "Let's order " + dishname;
+			
+
+		</script>
+		</body>
+	
+</html>
