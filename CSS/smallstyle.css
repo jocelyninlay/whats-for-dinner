@@ -1,0 +1,23 @@
+
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.container .hero {
+	width: 100%;
+}
+
+.hero img {
+  width: 100%;
+
+}
+
+
+aside.left, aside.right {
+	text-align: center;
+	float: inherit;
+}
+
+
